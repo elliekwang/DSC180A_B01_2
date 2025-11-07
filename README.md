@@ -22,7 +22,31 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 4) Run the entire pipeline with ```python run.py```
 
 ## File Structure
-[to be completed]
+```project-root/
+│
+├── README.md                               # Project overview and setup instructions
+│
+├── versions/                               # Weekly notebook versions and iterations
+│   ├── week2_v1.ipynb                      # Initial Week 2 exploration
+│   ├── week2_v2.ipynb                      # Refined Week 2 analysis
+│   ├── week3_v1.ipynb                      # Week 3 base model setup
+│   ├── week3_v2.ipynb                      # Week 3 improvements and results
+│   ├── week4_v1.ipynb                      # Week 4 first version
+│   ├── week4_v2.ipynb                      # Week 4 feature updates
+│   ├── week4_v3.ipynb                      # Week 4 model comparison
+│   ├── week4_v4.ipynb                      # Week 4 final tuning
+│   ├── week5_v1.ipynb                      # Start of Week 5 refinements
+│   ├── week5_v2.ipynb                      # Intermediate Week 5 iteration
+│   ├── week5_v3.ipynb                      # Added Ellie's LLM results
+│   ├── week5_v4.ipynb                      # Additional uploads and testing
+│   ├── week5_v5.ipynb                      # FinBERT model implementation
+│   ├── week5_v6.ipynb                      # RoBERTa base transformer version
+│   └── week5_v7.ipynb                      # Latest version (current progress)
+│
+└── data/                                   # Input datasets (external or linked)
+    ├── q1-ucsd-inflows.pqt                 # Inflow data (transactions or activity inflows)
+    └── q1-ucsd-outflows.pqt                # Outflow data (transactions or activity outflows)
+```
 
 ## Conclusion
 This project is currently in progress. Please check again towards mid-December for a clear and refined report on our conclusions of Part I of this project. 
