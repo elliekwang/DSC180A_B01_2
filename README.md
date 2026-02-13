@@ -29,17 +29,18 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 │
 ├── Winter_2026/                              # Weekly notebooks and progress checkpoints
 │   ├── EDA_w2.ipynb                        # EDA
-│   ├── Memo_Cleaning_w3.ipynb              # Text preprocessing and memo cleaning
-│   ├── Feature_Creation_w4.ipynb           # Feature engineering and baseline models
-│   ├── q1_checkpoint.ipynb                 # Quarter 1 checkpoint code
-│   ├── q1_report.ipynb                     # Quarter 1 report code
+│
 │
 ├── images/                           
-│   ├── EDA_w2.ipynb                     
-│   ├── Memo_Cleaning_w3.ipynb              
-│   ├── Feature_Creation_w4.ipynb           
-│   ├── q1_checkpoint.ipynb                 
-│   ├── q1_report.ipynb   
+│   ├── fig1.png                     
+│   ├── fig2.png              
+│   ├── fig3.png            
+│   ├── fig4.png                 
+│   ├── fig5.png   
+│   ├── fig6.png   
+│   ├── fig7.png   
+│   ├── fig8.png   
+│   ├── fig9.png   
 │
 │
 ├── Fall_2025/                              # Weekly notebooks and progress checkpoints
@@ -50,8 +51,6 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 │   ├── q1_report.ipynb                     # Quarter 1 report code
 │
 ├── environment.yml                         # Conda environment specification for reproducibility 
-│
-├── .gitignore                              # Git exclusion rules
 │
 └── run.py                                  # Main script for replicating all analysis and models                             
 
