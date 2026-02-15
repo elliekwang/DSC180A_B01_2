@@ -49,4 +49,5 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 ```
 
 ## Conclusion
-This project is currently in progress. Please check again towards mid-December for a clear and refined report on our conclusions of Part I of this project. 
+From October-December 2025, our goal was to create a strong model that could accurately predict the categories people's spendings would be attributed to. After applying Regex processing and thoroughly testing a variety of models, we discovered DistilBERT to be the most reliable, offering an accuracy of 97%. 
+From January 2026-present, we are building on our previous findings to build a model that uses consumer spending categories to help predict whether the respective consumer is delinquent. Subsequently, we will cast our predictions of the probability a consumer is delinquent and scale them into an understandable credit risk score. 
