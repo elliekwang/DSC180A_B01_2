@@ -1,7 +1,7 @@
 # Categorizing Banking Transaction Memos
 **Contributors:** Jasmine Hong, Heidi Tam, David Tsukamoto, Ellie Wang <br>
 **Creation Date:** October 8, 2025 <br>
-**Last Updated:** February 13, 2026 <br>
+**Last Updated:** February 14, 2026 <br>
 
 ## Overview
 Currently, one of the most widely used metrics for evaluating an individual's likelihood to pay back a loan is through the credit score, such as FICO or VantageScore. However, these metrics have their own limitations. Elderly people, for instance, may have not made purchases in the recent past, which can lower their credit score and make it more difficult for them to make large purchases, even if they previously maintained high credit scores and paid all their bills on time. On the other side of the spectrum, younger people may be reliable individuals but have a low credit score due to limited credit history. This project aims to use natural language processing to better understand the likelihood of people paying off their loans in two parts: <br> <br>
