@@ -30,6 +30,10 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 │
 ├── .gitignore                              # Marks data not tracked in this repository
 │
+├── poster.pdf                              # Project Poster showing visualizations and results
+│
+├── report.pdf                              # Project Report detailing methodology and analysis
+│
 ├── notebooks/                              # Each notebook of all our progress 
 │   ├── ellie_features.ipynb                # Ellie's notebooks
 │   ├── ellie_w4_vis.ipynb
@@ -64,7 +68,7 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 │   ├── tsu_w4.ipynb
 │   ├── tsu_w6.ipynb
 │   ├── tsu_w7.ipynb
-│   └── tsu_w8.ipynb                       # EDA
+│   └── tsu_w8.ipynb                        
 │
 ├── environment.yml                         # Conda environment specification for reproducibility 
 │
