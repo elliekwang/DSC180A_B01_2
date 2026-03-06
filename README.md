@@ -32,39 +32,39 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 │
 ├── notebooks/                              # Each notebook of all our progress 
 │   ├── ellie_features.ipynb                # Ellie's notebooks
-    ├── ellie_w4_vis.ipynb
-    ├── ellie_w4.ipynb
-    ├── ellie_w5.ipynb
-    ├── ellie_w6.ipynb
-    ├── ellie_w7.ipynb
-    ├── ellie_w8.ipynb
-    │
-    ├── features_balance.ipynb
-    ├── features_categories.ipynb
-    │
-    ├── ht_q2w1_v1.ipynb                    # Heidi's notebooks
-    ├── ht_q2w1_v2.ipynb
-    ├── ht_w2_part1.ipynb
-    ├── ht_w2_part2.ipynb
-    ├── ht_w3_part1.ipynb
-    ├── ht_w4_graphs.ipynb
-    ├── ht_w4_graphs_v2.ipynb
-    ├── ht_w4.ipynb
-    ├── ht_w5.ipynb
-    │
-    ├── jasmine_features (3).ipynb          # Jasmine's notebooks
-    ├── jasmine_features (4).ipynb
-    ├── jasminefeatures.ipynb
-    │
-    ├── jh.ipynb
-    ├── run.ipynb
-    │
-    ├── tsu_w2.ipynb                        # David's notebooks
-    ├── tsu_w3.ipynb
-    ├── tsu_w4.ipynb
-    ├── tsu_w6.ipynb
-    ├── tsu_w7.ipynb
-    └── tsu_w8.ipynb                       # EDA
+│   ├── ellie_w4_vis.ipynb
+│   ├── ellie_w4.ipynb
+│   ├── ellie_w5.ipynb
+│   ├── ellie_w6.ipynb
+│   ├── ellie_w7.ipynb
+│   ├── ellie_w8.ipynb
+│   │
+│   ├── features_balance.ipynb
+│   ├── features_categories.ipynb
+│   │
+│   ├── ht_q2w1_v1.ipynb                    # Heidi's notebooks
+│   ├── ht_q2w1_v2.ipynb
+│   ├── ht_w2_part1.ipynb
+│   ├── ht_w2_part2.ipynb
+│   ├── ht_w3_part1.ipynb
+│   ├── ht_w4_graphs.ipynb
+│   ├── ht_w4_graphs_v2.ipynb
+│   ├── ht_w4.ipynb
+│   ├── ht_w5.ipynb
+│   │
+│   ├── jasmine_features (3).ipynb          # Jasmine's notebooks
+│   ├── jasmine_features (4).ipynb
+│   ├── jasminefeatures.ipynb
+│   │
+│   ├── jh.ipynb
+│   ├── run.ipynb
+│   │
+│   ├── tsu_w2.ipynb                        # David's notebooks
+│   ├── tsu_w3.ipynb
+│   ├── tsu_w4.ipynb
+│   ├── tsu_w6.ipynb
+│   ├── tsu_w7.ipynb
+│   └── tsu_w8.ipynb                       # EDA
 │
 ├── environment.yml                         # Conda environment specification for reproducibility 
 │
