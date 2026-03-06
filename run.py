@@ -1,11 +1,4 @@
 # %%
-!pip install shap
-!pip install numpy
-
-# %%
-pip install --force-reinstall "numpy<2"
-
-# %%
 import pandas as pd
 import numpy as np
 import time
@@ -26,10 +19,10 @@ from lightgbm import LGBMClassifier
 # ## loading data
 
 # %%
-CONS_PATH = "/uss/hdsi-prismdata/q2-ucsd-consDF.pqt"
-ACCT_PATH = "/uss/hdsi-prismdata/q2-ucsd-acctDF.pqt"
-TRXN_PATH = "/uss/hdsi-prismdata/q2-ucsd-trxnDF.pqt"
-CATMAP_PATH = "/uss/hdsi-prismdata/q2-ucsd-cat-map.csv"
+CONS_PATH = "data/consdf.parquet"
+ACCT_PATH = "data/acctdf.parquet"
+TRXN_PATH = "data/outflows_local.parquet"
+CATMAP_PATH = "data/cat_map.csv"
 
 # %%
 # Load data
@@ -69,11 +62,11 @@ acctdf["balance_date"] = pd.to_datetime(acctdf["balance_date"], errors="coerce")
 
 trxndf = trxndf.copy()
 trxndf["posted_date"] = pd.to_datetime(trxndf["posted_date"], errors="coerce")
-
+print(trxndf.columns)
 # Deduplicate transactions (use this whenever you build transaction features)
-trxndf = (
-    trxndf.sort_values(["posted_date"])
-      .drop_duplicates(subset=["prism_transaction_id"], keep="first")
+trxndf = trxndf.sort_values(["posted_date"]).drop_duplicates(
+    subset=["prism_consumer_id", "prism_account_id", "posted_date", "amount", "memo", "category"],
+    keep="first"
 )
 
 
