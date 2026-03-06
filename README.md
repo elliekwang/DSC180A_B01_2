@@ -19,7 +19,7 @@ Currently, one of the most widely used metrics for evaluating an individual's li
  ```conda env create -f environment.yml``` <br>
  ```conda activate dsc180-q2``` <br>
 
-3) If you have access to our data, place the ```q2-ucsd-consDF.pqt```, ```q2-ucsd-acctDF.pqt```, ```q2-ucsd-trxnDF.pqt```, and ```q2-ucsd-cat-map.csv``` files in the ```data/``` directory if you have access to them. <br>
+3) If you have access to our data, place the ```q2-ucsd-consDF.pqt```, ```q2-ucsd-acctDF.pqt```, ```q2-ucsd-trxnDF.pqt```, and ```q2-ucsd-cat-map.csv``` files in a new folder called ```data/``` in the main directory. <br>
 
 4) Run the entire pipeline with ```python3 run.py```
 
