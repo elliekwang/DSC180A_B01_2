@@ -17,7 +17,7 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 
 2) Set up the environment and activate it: <br>
  ```conda env create -f environment.yml``` <br>
- ```conda activate dsc180-q1``` <br>
+ ```conda activate dsc180-q2``` <br>
 
 3) If you have access to our data, place the ```q2-ucsd-consDF.pqt```, ```q2-ucsd-acctDF.pqt```, ```q2-ucsd-trxnDF.pqt```, and ```q2-ucsd-cat-map.csv``` files in the ```data/``` directory if you have access to them. <br>
 
@@ -71,6 +71,8 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 │   └── tsu_w8.ipynb                        
 │
 ├── environment.yml                         # Conda environment specification for reproducibility 
+│
+├── results/                                # Holds all visual outputs like visualizations
 │
 └── run.py                                  # Main script for replicating all analysis and models                             
 
