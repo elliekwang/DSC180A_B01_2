@@ -10,6 +10,9 @@ dependencies:
   - scikit-learn
   - matplotlib
   - plotly
+  - pyarrow
+  - lightgbm
   - pip
   - pip:
       - xgboost
+      - shap
