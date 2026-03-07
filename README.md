@@ -20,15 +20,19 @@ Currently, one of the most widely used metrics for evaluating an individual's li
  ```conda activate dsc180-q2``` <br>
 
 Dependencies (see environment.yml)
-- ```python=3.12```  
-- ```numpy```  
-- ```pandas```  
-- ```scikit-learn``` 
-- ```matplotlib```  
-- ```plotly```  
-- ```xgboost```  
-- ```lightgbm```
-- ```shap```
+
+```
+python=3.12
+numpy=1.26.4
+pandas=2.2.2
+scikit-learn=1.4.2
+matplotlib=3.8.4
+plotly=5.22.0
+pyarrow=15.0.2
+lightgbm=4.3.0
+xgboost=2.0.3
+shap=0.45.1
+```
 
 3) If you have access to our data, place the ```q2-ucsd-consDF.pqt```, ```q2-ucsd-acctDF.pqt```, ```q2-ucsd-trxnDF.pqt```, and ```q2-ucsd-cat-map.csv``` files in a new folder called ```data/``` in the main directory. <br>
 

@@ -1,18 +1,20 @@
 name: dsc180-q2
+
 channels:
   - conda-forge
   - defaults
 
 dependencies:
   - python=3.12
-  - numpy
-  - pandas
-  - scikit-learn
-  - matplotlib
-  - plotly
-  - pyarrow
-  - lightgbm
-  - pip
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scikit-learn=1.4.2
+  - matplotlib=3.8.4
+  - plotly=5.22.0
+  - pyarrow=15.0.2
+  - lightgbm=4.3.0
+  - pip=24.0
+
   - pip:
-      - xgboost
-      - shap
+      - xgboost==2.0.3
+      - shap==0.45.1
