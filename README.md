@@ -19,10 +19,50 @@ Currently, one of the most widely used metrics for evaluating an individual's li
  ```conda env create -f environment.yml``` <br>
  ```conda activate dsc180-q2``` <br>
 
+Dependencies (see environment.yml)
+- ```python=3.12```  
+- ```numpy```  
+- ```pandas```  
+- ```scikit-learn``` 
+- ```matplotlib```  
+- ```plotly```  
+- ```xgboost```  
+- ```lightgbm```
+- ```shap```
+
 3) If you have access to our data, place the ```q2-ucsd-consDF.pqt```, ```q2-ucsd-acctDF.pqt```, ```q2-ucsd-trxnDF.pqt```, and ```q2-ucsd-cat-map.csv``` files in a new folder called ```data/``` in the main directory. <br>
 
 4) Run the entire pipeline with ```python3 run.py```
+This will:
 
+- build features  
+- select features  
+- train models  
+- generate reason codes  
+- score holdout consumers  
+- save outputs in results/
+
+---
+
+## Expected Outputs
+
+results/
+├── roc_curve.png
+├── lift_curve.png
+├── classification_report.txt
+├── holdout_scores.csv
+├── reason_codes.csv
+
+
+Outputs include:
+
+- model metrics
+- ROC / lift curves
+- delinquency scores
+- reason codes
+- holdout predictions
+
+---
 ## File Structure
 ```project-root/
 
@@ -79,6 +119,13 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 └── run.py                                  # Main script to reproduce results                 
 
 ```
+Directory description:
+
+```feature_engineering``` → create financial features  
+```feature_selection``` → choose top predictors  
+```model_creation``` → train ML models  
+```reason_codes``` → explain predictions  
+```scoring``` → apply model to holdout set  
 
 ## Conclusion
 From October-December 2025, our goal was to create a strong model that could accurately predict the categories people's spendings would be attributed to. After applying Regex processing and thoroughly testing a variety of models, we discovered DistilBERT to be the most reliable, offering an accuracy of 97%. <br>
