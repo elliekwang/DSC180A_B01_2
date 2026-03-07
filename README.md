@@ -40,19 +40,20 @@ This will:
 - train models  
 - generate reason codes  
 - score holdout consumers  
-- save outputs in results/
+- save outputs in results
 
 ---
 
 ## Expected Outputs
-
+```
 results/
+│
 ├── roc_curve.png
 ├── lift_curve.png
 ├── classification_report.txt
 ├── holdout_scores.csv
-├── reason_codes.csv
-
+└── reason_codes.csv
+```
 
 Outputs include:
 
