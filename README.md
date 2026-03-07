@@ -25,56 +25,58 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 
 ## File Structure
 ```project-root/
+
 │
 ├── README.md                               # Project overview and documentation
-│
 ├── .gitignore                              # Marks data not tracked in this repository
+├── poster.pdf                              # Project poster with visualizations and results
+├── report.pdf                              # Final project report
+├── environment.yml                         # Conda environment for reproducibility
+├── results/                                # Saved figures / outputs
 │
-├── poster.pdf                              # Project Poster showing visualizations and results
+├── notebooks/                              # All notebooks organized by workflow stage
 │
-├── report.pdf                              # Project Report detailing methodology and analysis
+│   ├── feature_engineering/                # Created features based on categories, income, balance, etc. 
+│   │   ├── ellie_features.ipynb
+│   │   ├── features_balance.ipynb
+│   │   ├── features_categories.ipynb
+│   │   ├── ht_q2w1_v1.ipynb
+│   │   ├── ht_q2w1_v2.ipynb
+│   │   ├── ht_w2_part1.ipynb
+│   │   ├── ht_w2_part2.ipynb
+│   │   ├── jasmine_features (3).ipynb
+│   │   ├── jasmine_features (4).ipynb
+│   │   └── tsu_w2.ipynb
 │
-├── notebooks/                              # Each notebook of all our progress 
-│   ├── ellie_features.ipynb                # Ellie's notebooks
-│   ├── ellie_w4_vis.ipynb
-│   ├── ellie_w4.ipynb
-│   ├── ellie_w5.ipynb
-│   ├── ellie_w6.ipynb
-│   ├── ellie_w7.ipynb
-│   ├── ellie_w8.ipynb
-│   │
-│   ├── features_balance.ipynb
-│   ├── features_categories.ipynb
-│   │
-│   ├── ht_q2w1_v1.ipynb                    # Heidi's notebooks
-│   ├── ht_q2w1_v2.ipynb
-│   ├── ht_w2_part1.ipynb
-│   ├── ht_w2_part2.ipynb
-│   ├── ht_w3_part1.ipynb
-│   ├── ht_w4_graphs.ipynb
-│   ├── ht_w4_graphs_v2.ipynb
-│   ├── ht_w4.ipynb
-│   ├── ht_w5.ipynb
-│   │
-│   ├── jasmine_features (3).ipynb          # Jasmine's notebooks
-│   ├── jasmine_features (4).ipynb
-│   ├── jasminefeatures.ipynb
-│   │
-│   ├── jh.ipynb
-│   ├── run.ipynb
-│   │
-│   ├── tsu_w2.ipynb                        # David's notebooks
-│   ├── tsu_w3.ipynb
-│   ├── tsu_w4.ipynb
-│   ├── tsu_w6.ipynb
-│   ├── tsu_w7.ipynb
-│   └── tsu_w8.ipynb                        
+│   ├── feature_selection/                  # Selected top 50 best performing features for the final model
+│   │   ├── ellie_w4_vis.ipynb
+│   │   ├── ellie_w4.ipynb
+│   │   ├── ht_w3_part1.ipynb
+│   │   ├── ht_w4_graphs_v2.ipynb
+│   │   ├── ht_w4_graphs.ipynb
+│   │   ├── ht_w4.ipynb
+│   │   ├── jasminefeatures.ipynb
+│   │   ├── tsu_w3.ipynb
+│   │   └── tsu_w4.ipynb
 │
-├── environment.yml                         # Conda environment specification for reproducibility 
+│   ├── model_creation/                     # Trained LogReg, XGBoost, Random Forest, and LightGBM and performed hyperparameter tuning
+│   │   ├── ellie_w5.ipynb
+│   │   ├── ellie_w6.ipynb
+│   │   ├── ht_w5.ipynb
+│   │   ├── jh.ipynb
+│   │   └── tsu_w6.ipynb
 │
-├── results/                                # Holds all visual outputs like visualizations
+│   ├── reason_codes/                       # Created 3 reasons for why we would predict delinquency
+│   │   ├── ellie_w7.ipynb
+│   │   └── tsu_w7.ipynb
 │
-└── run.py                                  # Main script for replicating all analysis and models                             
+│   ├── scoring/                            # Applied our model on a holdout set and created visualizations
+│   │   ├── ellie_w8.ipynb
+│   │   └── tsu_w8.ipynb
+│
+│   └── run.ipynb                           # Notebook version of pipeline
+│
+└── run.py                                  # Main script to reproduce results                 
 
 ```
 
