@@ -45,23 +45,22 @@ This will:
 ---
 
 ## Expected Outputs
+
 ```
 results/
 │
-├── roc_curve.png
-├── lift_curve.png
-├── classification_report.txt
-├── holdout_scores.csv
-└── reason_codes.csv
+├── most_common_rc.png
+├── score_rc.csv
+├── shap_rc.png
+└── shap_summary.png
 ```
 
 Outputs include:
 
-- model metrics
-- ROC / lift curves
-- delinquency scores
-- reason codes
-- holdout predictions
+- SHAP summary visualization
+- reason code visualization
+- final scoring table
+- most common reason codes plot
 
 ---
 ## File Structure
@@ -74,6 +73,10 @@ Outputs include:
 ├── report.pdf                              # Final project report
 ├── environment.yml                         # Conda environment for reproducibility
 ├── results/                                # Saved figures / outputs
+│   ├── most_common_rc.png
+│   ├── score_rc.csv
+│   ├── shap_rc.png
+│   └── shap_summary.png
 │
 ├── notebooks/                              # All notebooks organized by workflow stage
 │
