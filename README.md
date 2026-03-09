@@ -80,6 +80,8 @@ Outputs include:
 │   ├── most_common_rc.png
 │   ├── score_rc.csv
 │   ├── shap_rc.png
+│   ├── model_comparison_roc.png
+│   ├── mean_roc_comparison.png
 │   └── shap_summary.png
 │
 ├── notebooks/                              # All notebooks organized by workflow stage
