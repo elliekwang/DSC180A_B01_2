@@ -1,7 +1,7 @@
 # Categorizing Banking Transaction Memos
 **Contributors:** Jasmine Hong, Heidi Tam, David Tsukamoto, Ellie Wang <br>
 **Creation Date:** October 8, 2025 <br>
-**Last Updated:** February 14, 2026 <br>
+**Last Updated:** March 8, 2026 <br>
 **Website:** https://heiditam.github.io/fairer-credit-cashflow/
 
 ## Overview
